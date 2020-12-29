@@ -1,2 +1,1 @@
-# Dotfiles for this r/unixporn thread:
-### https://www.reddit.com/r/unixporn/comments/km4ogs/xfce_openbox_spot_the_inconsistency/
+# Dotfiles for things such as the rices I do from time to time and scripts.
