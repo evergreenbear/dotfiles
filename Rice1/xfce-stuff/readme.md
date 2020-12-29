@@ -2,7 +2,5 @@
 ## e.g. Panel config and such
 
 
-##### Panel config will require the `xfce4-panel-profiles` package to be installed.
-##### Once it is, you can run `xfce4-panel-profiles load /dir/to/Rice1Panel.tar.xz` to install and apply the panel config.
-
 #### Required packages: `xfce4-panel-profiles` (AUR), `panther-launcher-git` (AUR) 
+##### Once packages are installed and repo is cloned, you can run `xfce4-panel-profiles load /dir/to/Rice1Panel.tar.xz` to install the XFCE panel theme.
