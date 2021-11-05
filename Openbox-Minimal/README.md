@@ -1,4 +1,4 @@
-### Dotfiles for setup
+# Dotfiles for setup
 See included picture for the rice.
 
 ## To Install
