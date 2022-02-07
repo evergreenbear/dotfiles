@@ -1,4 +1,4 @@
 ## Preview
-<img src="rice-w-kern-comp.png"/>
+<img src="rice.png"/>
 
-I have tried to include everything. Please let me know if I am missing anything.
+I have everything configured to suit my workflow. You may need to make some minor modifications to get things to work for you.
