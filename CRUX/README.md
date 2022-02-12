@@ -1,1 +1,1 @@
-#### .config most recently compiled on kernel version 5.15.12
+#### this is basically just an archive for my kernel .config in case i need it again
