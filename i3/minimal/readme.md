@@ -1,2 +1,2 @@
 ## Preview:
-[add]
+![Preview](rice-new.png)
