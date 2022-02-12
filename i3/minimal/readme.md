@@ -1,2 +1,2 @@
 ## Preview:
-![Preview](rice-new.png)
+![Preview](i3minimal.png)
