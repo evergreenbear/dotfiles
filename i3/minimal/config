@@ -201,7 +201,7 @@ gaps outer 5
 
 exec tint2
 exec picom --experimental-backends
-exec feh --bg-scale ~/.walls/poo.jpg
+exec feh --bg-scale ~/.walls/wall.jpg
 exec flameshot
 exec pnmixer
 exec pulseaudio
