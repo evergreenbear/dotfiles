@@ -1,3 +1,3 @@
 # Spectrwm rice
 ### Preview:
-[add here]
+![Preview](preview.png)
