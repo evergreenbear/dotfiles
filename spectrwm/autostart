@@ -1,5 +1,0 @@
-#!/bin/bash
-
-picom --experimental-backends &
-feh --bg-scale ~/.walls/gray.jpg &
-pulseaudio --start &
