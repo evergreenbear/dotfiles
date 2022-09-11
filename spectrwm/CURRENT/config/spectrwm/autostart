@@ -1,0 +1,6 @@
+#!/bin/bash
+
+picom --experimental-backends &
+feh --bg-scale ~/.walls/wall.png &
+pulseaudio --start &
+dunst &
