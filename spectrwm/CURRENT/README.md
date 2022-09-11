@@ -1,1 +1,3 @@
-# Current spectrwm rice
+# Spectrwm rice
+### Preview:
+![Preview](preview.png)
