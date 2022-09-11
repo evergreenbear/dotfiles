@@ -1,0 +1,1 @@
+# Current spectrwm rice
