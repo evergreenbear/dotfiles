@@ -1,0 +1,61 @@
+{
+    "layer": "top",
+	"position":"top",
+	"output": "DP-2",
+	"height": 45,
+	"spacing": 4,
+	"margin-bottom": 0,
+    "margin-top": 10,
+	"margin-left": 10,
+	"margin-right": 10,
+	"modules-left": ["clock", "custom/weather"],
+	"modules-right": ["wireplumber", "custom/network", "custom/tailscale", "custom/suspend", "custom/swaync"],
+	"sway/window": {
+        "max-length": 50
+    },
+    "clock": {
+        "format-alt": "{:%a, %b %d  %H:%M}"
+    },
+	"custom/weather": {
+		"format": "{}",
+		"tooltip": true,
+		"interval": 1800,
+		"exec": "waybar-openweathermap",
+		"return-type": "json",
+    },
+	"custom/tailscale": {
+		"format": "\udb80\udf06  {icon} ",
+		"tooltip-format": "{icon}",
+		"interval": 5,
+		"exec": "$HOME/.config/waybar/tsvpn.sh",
+		"return-type": "json",
+		"format-icons": ["\udb82\ude19","\udb81\udd21"],
+	},
+	"custom/network": {
+		"format": "\udb80\ude00  {icon} ",
+		"tooltip-format": "{icon}",
+		"interval": 5,
+		"exec": "$HOME/.config/waybar/network.sh",
+		"return-type": "json",
+		"format-icons": ["\udb82\ude19","\udb81\udd21"],
+	},
+	"custom/swaync": {
+		"on-click": "swaync-client -t",
+		"format": "\udb80\udc9a",
+		"return-type": "none",
+		"min-length": 2,
+	},
+	"custom/suspend": {
+		"on-click":"swaylock -c 000000",
+		"return-type": "none",
+		"format":"\ue226 ",
+		"min-length": 2,
+	},	
+	"wireplumber": {
+    	"format": "\udb86\udc6c  {volume}%",
+    	"format-muted": " \udb81\udfce ",
+    	"on-click": "pavucontrol",
+    	"max-volume": 150,
+    	"scroll-step": 1
+	},
+}

@@ -1,0 +1,80 @@
+* {
+	border: none;
+	border-radius: 0;
+	font-family: "IBM Plex Sans", sans-serif;
+	font-size: 13px;
+	min-height: 0;
+}
+
+window#waybar {
+	background-color: transparent;
+	/* border-bottom: 3px solid transparent;*/
+	color: white;
+}
+
+#tags button {
+    padding: 0px 5px;
+    margin: 3px 3px;
+    /* background-color: #161320; */
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #D9E0EE;
+    /* Use box-shadow instead of border so the text isn't offset */
+    box-shadow: inset 0 -3px transparent;
+    /* Avoid rounded borders under each workspace name */
+    border: none;
+    border-radius: 3;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#tags button:hover {
+    /* background: rgba(0, 0, 0, 0.2); */
+    box-shadow: inset 0 -3px #D9E0EE;
+}
+
+#tags button.occupied {
+    box-shadow: inset 0 -3px white;
+}
+
+#tags button.focused {
+    background-color: black;
+    box-shadow: inset 0 -3px green;
+}
+
+#tags button.urgent {
+    background-color: #F28FAD;
+}
+
+#mode {
+    background-color: #384454;
+    border-bottom: 3px solid #D9E0EE;
+}
+
+#clock,#custom-weather,#custom-tailscale,#custom-network,#network.ethernet,#wireplumber,#custom-swaync {
+	padding: 5px 10px;
+	margin: 3px 3px;
+	border-radius: 2;
+	background-color: #012e48;
+	font-family: "IBM Plex Sans";
+	font-size: 18;
+}
+#custom-suspend {
+	padding: 5px 10px;
+	margin: 3px 3px;
+	border-radius: 2;
+	background-color: #012e48;
+	font-family: "IBM Plex Sans";
+	font-size: 24;
+}
+
+#wireplumber {
+	font-size: 18;
+}
+
+#network.disconnected {
+	padding: 5px 10px;
+	margin: 3px 3px;
+	border-radius: 2;
+	background-color: #4c0822;
+	font-family: "IBM Plex Sans";
+	font-size: 18;
+}	
