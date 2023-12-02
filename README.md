@@ -1,2 +1,2 @@
-# General dotfiles
-## For things like rices, scripts, etc.
+# dotfiles
+## welcome to my dotfiles
